@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.steven.triqui.TriquiView"
+    android:padding="@dimen/paddingP"
+    android:weightSum="1"
+    android:background="@drawable/degrad_fondo">
+    <!--    -->
+
+    <Space
+        android:layout_width="100dp"
+        android:layout_height="wrap_content" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_horizontal">
+        
+        <TextView
+            style="@style/titulo"
+            android:text="@string/app_name"/>
+
+        <Button
+            style="@style/botones"
+            android:text="@string/facil"
+            android:id="@+id/easyMode"
+            android:onClick="iniciar" />
+        <Button
+            style="@style/botones"
+            android:text="@string/dificil"
+            android:id="@+id/hardMode"
+            android:onClick="iniciar"/>
+        <Button
+            style="@style/botones"
+            android:text="@string/versus"
+            android:id="@+id/versusMode"
+            android:onClick="iniciar"/>
+        
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="50dp"
+        android:layout_height="wrap_content" />
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:columnCount="3"
+        android:rowCount="3"
+        >
+
+        <ImageView
+            style = "@style/casillas"
+            android:id="@+id/c1"
+            android:layout_margin="@dimen/bordes"
+            android:onClick="elegir"/>
+
+        <ImageView
+            style = "@style/casillas"
+            android:id="@+id/c2"
+            android:layout_margin="@dimen/bordes"
+            android:onClick="elegir"/>
+
+        <ImageView
+            style = "@style/casillas"
+            android:id="@+id/c3"
+            android:layout_margin="@dimen/bordes"
+            android:onClick="elegir"/>
+
+        <ImageView
+            style = "@style/casillas"
+            android:id="@+id/c4"
+            android:layout_margin="@dimen/bordes"
+            android:onClick="elegir"/>
+
+        <ImageView
+            style = "@style/casillas"
+            android:id="@+id/c5"
+            android:layout_margin="@dimen/bordes"
+            android:onClick="elegir"/>
+
+        <ImageView
+            style = "@style/casillas"
+            android:id="@+id/c6"
+            android:layout_margin="@dimen/bordes"
+            android:onClick="elegir"/>
+
+        <ImageView
+            style = "@style/casillas"
+            android:id="@+id/c7"
+            android:layout_margin="@dimen/bordes"
+            android:onClick="elegir"/>
+
+        <ImageView
+            style = "@style/casillas"
+            android:id="@+id/c8"
+            android:layout_margin="@dimen/bordes"
+            android:onClick="elegir"/>
+
+        <ImageView
+            style = "@style/casillas"
+            android:id="@+id/c9"
+            android:layout_margin="@dimen/bordes"
+            android:onClick="elegir"/>
+
+    </GridLayout>
+
+
+
+</LinearLayout>

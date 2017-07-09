@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Triqui</string>
+    <string name="facil">Facil</string>
+    <string name="normal">Dificil</string>
+    <string name="dificil">Imposible</string>
+    <string name="versus">2 Jugadores</string>
+    <string name="win2">Ganan los circulos</string>
+    <string name="win1">Ganan las cruces</string>
+    <string name="empate">Empate</string>
+
+</resources>

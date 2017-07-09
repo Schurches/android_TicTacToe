@@ -1,0 +1,12 @@
+<resources>
+
+    <string name="app_name">Tic Tac Toe</string>
+    <string name="facil">Easy</string>
+    <string name="normal">Hard</string>
+    <string name="dificil">Impossible</string>
+    <string name="versus">2 Player Mode</string>
+    <string name="win2">Circles win</string>
+    <string name="win1">Crosses win</string>
+    <string name="empate">Draw</string>
+
+</resources>

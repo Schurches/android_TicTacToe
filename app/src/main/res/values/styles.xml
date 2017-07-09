@@ -1,0 +1,36 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.NoActionBar.Fullscreen">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="titulo">
+
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/tituloApp</item>
+
+    </style>
+    
+    <style name="botones">
+        
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:minWidth">@dimen/anchoBotones</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">@dimen/altoBotones</item>
+        <item name="android:layout_margin">@dimen/margen</item>
+        <item name="android:textSize">@dimen/textos</item>
+        <item name="android:background">@drawable/degrad_boton</item>
+        
+    </style>
+    
+    <style name="casillas">
+
+        <item name="android:layout_width">@dimen/casillas</item>
+        <item name="android:layout_height">@dimen/casillas</item>
+
+    </style>
+
+
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="paddingP">12dp</dimen>
+    <dimen name="casillas">75dp</dimen>
+    <dimen name="tituloApp">24sp</dimen>
+    <dimen name="textos">18sp</dimen>
+    <dimen name="anchoBotones">120dp</dimen>
+    <dimen name="altoBotones">50dp</dimen>
+    <dimen name="paddingB">8dp</dimen>
+    <dimen name="margen">15dp</dimen>
+    <dimen name="bordes">2dp</dimen>
+
+
+</resources>

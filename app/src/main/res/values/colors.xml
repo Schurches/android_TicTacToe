@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="backgroundColor">#bdc1c1</color>
+    <color name="backgroundColor2">#424647</color>
+    <color name="onColor1">#8695A6</color>
+    <color name="onColor2">#202F40</color>
+    <color name="offColor1">#c8cdce</color>
+    <color name="offColor2">#48b7d6</color>
+
+</resources>
